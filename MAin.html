@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main</title>
+		 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Mproject/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <!-- fontsome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Css -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-expand-md navbar-light bg-white ">
+		<a href="#" class="navbar-brand "><h3><b>KENSWAG</b></h3></a>
+		<div class="navbar ml-auto " >
+		<button type="button" class="btn bn1" data-toggle="modal" data-target="#Mymodal">Login</button>
+		<div class="modal" id="Mymodal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2>LOGIN</h2>
+						<button class="close" dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+									<form>
+							<div class="form-group mt-5">
+								<input type="text" name="" class="form-control inpt " placeholder="Email" >
+							</div>
+							<div class="form-group">
+								<input type="password" name="" class="form-control inpt" placeholder="Password" >
+							</div>
+							<button type="btn" class="btn btn-warning buttn mt-4" style="">LOGIN</button>
+						
+					<p class="or mt-5" style="">
+	         ..................................... or.....................................</p>
+					
+					<div class="ml-2"><button type="btn" class="btn btn-warning buttn1 " style=""><i class="fa fa-facebook fa_fnt2" style=""></i>Login with Facebook</button>
+						<button type="btn" class="btn btn-warning buttn1 "><i class="fa fa-google fa_fnt2"></i>Login with Google</button>
+					</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		 <button type="button" class="btn bn1 " data-toggle="modal" data-target="#myModal2">Sign Up</button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+         <h3 > SIGN UP</h3>
+						<button type="button" class="close"dismiss="modal" >&times;</button>
+					</div>
+					<div class="modal-body">
+						<form>
+                            <div>
+							<div><i class="fa fa-user-circle-o ml-2" style="font-size:48px;color:orange;"></i></div>
+							<a href="" style="color: lightgray; font-size: 10px;"> Upload Image</a></div>
+
+							<div class="form-group mt-3">
+								<input type="text" name="" class="form-control inpt " placeholder="User Name" >
+							</div>
+							<div class="form-group ">
+								<input type="text" name="" class="form-control inpt " placeholder="Email" >
+							</div>
+							<div class="form-group">
+								<input type="password" name="" class="form-control inpt" placeholder="Password" >
+							</div>
+							<label class="radio-inline ml-5 " style=""><input type="radio" style="margin-right: 10px; " name="optradio" checked>Buyer</label>
+                            <label class="radio-inline " style="margin-left: 200px; "><input type="radio" name="optradio" style="margin-right: 10px;" >Seller</label>
+						
+							<button type="btn" class="btn btn-warning buttn mt-3" style="">SIGN UP</button>
+							
+					<p class="or" style="">
+	           ..................................... or.....................................</p>
+					
+					<div class="ml-2"><button type="btn" class="btn btn-warning buttn2 " style=""><i class="fa fa-facebook fa_fnt2" style=""></i>Sign Up with Facebook</button>
+						<button type="btn" class="btn btn-warning buttn2 "><i class="fa fa-google fa_fnt2"></i>Sign Up with Google</button>
+					</div></form>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- <button type="button" class="" data-toggle="modal" data-target="#myModal"><i class="fa fa-user-circle bn1 text-warning" style="font-size: 40px;" ></i> </button> -->
+ <i class="fa fa-user-circle bn2  text-warning" data-toggle="modal" data-target="#myModal"  ></i>
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+         <h2>KENSWAG</h2>
+		<button type="button" class="close" dismiss="model">&times;</button></div>
+        <!-- Modal body -->
+        <div class="modal-body">
+     <form>
+	 <div class="ml-4">
+	<div><i class="fa fa-user-circle-o " style=  "font-size:53px;color:orange;"></i></div>
+    <p class="mt-4"><b>Abcd Khan</b></p>
+    <p><b>Email@gmail.com</b></p>
+	</div>
+	<div id="parghr"><p>The Kenswag will charge 2% of your each products sold.</p></div>
+	<div><label class="radio-inline " style="margin-left: 20px; "><input type="radio" name="optradio"checked style="margin-right: 10px;" >Agree with Kenswag policies</label></div>
+	<button type="btn" class="btn btn-warning buttn mt-3" style="margin-bottom: 70px;">Continue</button>
+	</form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+	</nav>
+	<nav class="nabar navbar-expand-md navbar-light bg-white ">
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#demo">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="demo">
+			<div class="navbar-right text-center ml-auto" style="margin-right: 30%;" >
+				<div class="search-container">
+					<form>
+            <div class="row">
+        <div style="border: 1px solid black; height: 40px; margin-top: 20px;">    
+  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right: 1px solid black;" >
+    Categories
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+
+	<input type="text" name=""  placeholder="Search" style="border: none; " >
+           <i class="fa fa-search " style="margin-right: 10px;"></i> 
+          </div>
+						<a href="#" class="navbar-link"><i class='fa fa-cart-plus bn2 text-warning' style="margin-top: 10px;" ></i></a>
+						<a href="#" class="navbar-link bn1 " >&000</a>
+            </div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+	<hr class="hr">
+
+</div>
+<div class="container ">
+	<div class="row ">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<img src="imgs/Diff.jpg" class="responsive imggg">
+			<div class="bottom-left">
+				<div class="dropup">
+  <button class="dropbtn"><i class="fa fa-angle-down" style="font-size:30px;margin-left: 90%;"></i></button>
+  <div class="dropup-content">
+    <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Cars</a>
+    <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Electronics</a>
+    <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Fashion</a>
+    <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Sports</a>
+    <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Music and Movies</a>
+     <a href="#"><i class="fa fa-caret-right fa_rigt" ></i>Kids</a>
+    
+  </div>
+</div>
+			</div>
+		</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-sm-4 col-md-4 col-lg-4" >
+				<div style="border: 1px solid lightgray; height: 400px;">
+	     <i class="fa fa-car fa_car" ></i>
+          <div><p class="par" style="">Let's findout the favourite Item Available Right Now?</p>
+          <a href="" class="text-warning "  ><center> Browse Favourite</center></a>
+          <i class="fa fa-mobile-phone fa_car" style=" float: right; :  "></i>
+          <i class="fa fa-mars-double fa_car mt-5"  ></i>
+		</div>
+				</div>
+			</div>
+			<div class="col-sm-8 col-md-8 col-lg-8"  >
+				<img src="imgs/123.jpg" class="imggg">
+				<div class="caption cap"><center><h5 class="captt">Features<i class="fa fa-angle-right" style="font-size:30px;margin-left: 40%;"></i></h5></center></div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<h3 class="mt-5" style="margin-left: 5%;">New Posts</h3>
+			</div>
+		</div>
+		<hr class="hr">
+		<!-- <div class="row">
+			<div class="co"></div>
+		</div> -->
+
+		  <div class="container">
+    	<div class="card-deck">
+    		<div class="card">
+    			<img src="imgs\boximg.png" class="card-img-top img3" style="">
+    			 
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title ">BirthDay Gift Group</h4>
+    				<p class="card-text crdtrt1"> $35.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			
+    			<img src="imgs\pillow.jpg" class="card-img-top img3">
+    			<div class="top-right">
+    			 <div class="price btn-warning">New</div>
+    			 </div>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title ">Yellow Pillow</h4>
+    				<p class="card-text crdtrt1"> $40.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			<img src="imgs\2.0__78746.1580764267.webp" class="card-img-top img3">
+    			<div class="top-right">
+    			 <div class="price1 btn-warning">12.5%</div>
+    			 </div>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title">Bracelets With Names</h4>
+    				<!-- <p class="card-text crdtrt1"> $40.00 </p> -->
+    				<p class="card-text crdtrt1"> $35.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			<img src="imgs\TKSL19_1.png " class="card-img-top img3 " 	>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title">Kinte Handmade Bracelet</h4>
+    				<p class="card-text crdtrt1"> $40.00</p>
+
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    	  <div class="container mt-4">
+    	<div class="card-deck">
+    		<div class="card">
+    			<img src="imgs\boximg.png" class="card-img-top img3" style="">
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title ">BirthDay Gift Group</h4>
+    				<p class="card-text crdtrt1"> $35.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			
+    			<img src="imgs\pillow.jpg" class="card-img-top img3">
+    			<div class="top-right">
+    			 <div class="price btn-warning">New</div>
+    			 </div>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title ">Yellow Pillow</h4>
+    				<p class="card-text crdtrt1"> $40.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			<img src="imgs\2.0__78746.1580764267.webp" class="card-img-top img3">
+    			<div class="top-right">
+    			 <div class="price1 btn-warning">12.5%</div>
+    			 </div>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title cd-title">Bracelets With Names</h4>
+    				<!-- <p class="card-text crdtrt1"> $40.00 </p> -->
+    				<p class="card-text crdtrt1"> $35.00</p>
+    			</div>
+    		</div>
+    		<div class="card">
+    			<img src="imgs\TKSL19_1.png " class="card-img-top img3 " 	>
+    			<div class="card-body text-dark text-center" >
+    				<h4 class="card-title ">Kinte Handmade Bracelet</h4>
+    				<p class="card-text crdtrt1"> $40.00</p>
+
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="row">
+    	<div></div>
+    </div>
+    <hr class="hr">
+    <div class="row" >
+    		<div class="col-sm-12 ">
+    			<div class="form">
+    				<div class="input-form">
+    			<input type="text" name="" class="map" placeholder="See Map" style="text-align: right;">
+    		
+    		
+    			<input type="text" name="" class="map" placeholder="Scroll up">
+    		</div>
+    	</div></div>
+    </div>
+
+    <!-- Footer class........... -->
+
+    <footer class="page-footer font-small  pt-3 mt-5">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h1  >KENSWAG</h1>
+
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 >Information</h5>
+
+            <ul class="list-unstyled footer-lik">
+              <li>
+                <a href="#!">About Us</a>
+              </li>
+              <li>
+                <a href="#!">Deliery Information</a>
+              </li>
+              <li>
+                <a href="#!">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#!">Terms & condition</a>
+              </li>
+              <li>
+                <a href="#!">Contact US</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 >Contact Us</h5>
+
+            <ul class="list-unstyled footer-lik">
+              <li>
+                <a href="#!">Great Store London Oxford Street,012 United Kingdom</a>
+              </li>
+              <li>
+                <a href="#!">emailgreatstore@gamil.com</a>
+              </li>
+              <li>
+                <a href="#!">+2312345678</a>
+              </li>
+
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      
+    </footer>
+		<br><br>
+	
+</div>
+</body>
+</html>

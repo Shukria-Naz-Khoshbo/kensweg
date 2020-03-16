@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- fontsome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link rel="stylesheet" href="chartist.min.css">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading text-light">KENSWAG</div>
+      <div class="list-group hh">
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-area-chart mr-4" style="font-size: 20px;"></i>Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-users mr-4" style="font-size:20px "></i> Users</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-industry mr-4" style="font-size:20px"></i>Sellers</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-clipboard mr-4" style="font-size: 20px;" ></i>Posts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-envelope-o mr-4" style="font-size:20px"></i>Messages</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-industry mr-4" style="font-size:20px"></i>Commision</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa fa-cog mr-4" style="font-size: 20px;"></i>Settings</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <button class="btn btn-warning" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="margin-right:400px; ">DashBorad <span class="sr-only">(current)</span></a>
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+       <div class="container mt-2">
+         <div class="card-deck">
+           <div class="card bgcolor">
+             <div class="card-body  text-light ">
+               <p class="bodytxt">100</p>
+               <p class="bodytxt1">Total User</p>
+             </div>
+             <div class="card-footer text-center text-light ">More Info <a href="#"><i class="fa fa-mail-forward" style="font-size:24px; color: white;"></i></a></div>
+           </div>
+           <div class="card bgcolor bgcolor1">
+             <div class="card-body  text-light ">
+               <p class="bodytxt">100</p>
+               <p class="bodytxt1">Verified User</p>
+             </div>
+             <div class="card-footer text-center text-light ">More Info <a href="#"><i class="fa fa-mail-forward" style="font-size:24px; color: white;"></i></a></div>
+           </div>
+           <div class="card bg-dark">
+             <div class="card-body  text-light ">
+               <p class="bodytxt">100</p>
+               <p class="bodytxt1">User Not Verified</p>
+             </div>
+             <div class="card-footer text-center text-light ">More Info <a href="#"><i class="fa fa-mail-forward" style="font-size:24px; color: white;"></i></a></div>
+           </div>
+           <div class="card " style="background-color: black;">
+             <div class="card-body  text-light ">
+               <p class="bodytxt">100</p>
+               <p class="bodytxt1"> Verified Seller</p>
+             </div>
+             <div class="card-footer text-center text-light ">More Info <a href="#"><i class="fa fa-mail-forward" style="font-size:24px; color: white;"></i></a></div>
+           </div>
+         </div>
+       </div>
+       <div class="container mt-3">
+
+         <div class="card-deck">
+          <div class="card">
+            <div class="card-header">Line Chart</div>
+            <div class="card-body">
+             <div class="ct-chart"  style="height: 280px"></div>
+           </div ></div>
+           <div class="card">
+
+            <div class="card-body">
+              <div class="row">
+               <div class="col-xs-6 ml-3" style="">
+                  <div class="row">
+                    <div class="col-xs-3 mr-3"><i class="fa fa-circle" style="font-size:20px; color:orange;"></i></div> 
+                    <div class="col-xs-9"> <p>Visitors</p></div>
+                  </div>
+                      <div class="row">
+                     <div class="col-xs-3 mr-3"><i class="fa fa-circle" style="font-size:20px; color:lightcoral;"></i></div> 
+                    <div class="col-xs-9"> <p>Business</p></div>
+                  </div>
+                    <div class="row">
+                     <div class="col-xs-3 mr-3"><i class="fa fa-circle" style="font-size:20px; color:#DC143C;"></i></div> 
+                    <div class="col-xs-9"> <p>Users</p></div>
+                </div>
+                <div class="row">
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa2" ></i> 
+                  <i class="fa fa-user-o fa2" ></i>  
+                  
+                </div>
+                <div class="row mt-2">
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa1" ></i>
+                  <i class="fa fa-user-o fa2" ></i>
+                  <i class="fa fa-user-o fa2" ></i>
+                  <i class="fa fa-user-o fa2" ></i> 
+                  <i class="fa fa-user-o fa2" ></i> 
+                </div>
+                 <div class="row mt-2">
+                  <i class="fa fa-user-o fa3" ></i>
+                  <i class="fa fa-user-o fa3" ></i>
+                  <i class="fa fa-user-o fa3" ></i>
+                  <i class="fa fa-user-o fa3" ></i>
+                  <i class="fa fa-user-o fa3" ></i>
+                  <i class="fa fa-user-o fa2" ></i>
+                  <i class="fa fa-user-o fa2" ></i> 
+                  <i class="fa fa-user-o fa2" ></i> 
+                </div>
+              </div>
+
+                <div class="col-xs-6 ml-5" >
+                    <div class="ct-barchart" style="height: 280px; width:"></div>
+                
+
+                </div>
+              </div>
+            </div >
+          </div>
+          </div>
+
+          <div class="card-deck mt-3">
+            <div class="card">
+
+              <div class="card-body">
+               <div class="ct-barchart2" style="height: 300px;"></div>
+             </div >
+           </div>
+             <div class="card">
+              <div class="card-body">
+             <div id="chartContainer" style="height: 300px; width: 100%;">
+             </div >
+           </div>
+           </div>
+
+         </div>
+       </div>
+     </div>
+     <!-- /#page-content-wrapper -->
+
+   </div>
+   <!-- /#wrapper -->
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="chartist.min.js"></script>
+   <!-- Menu Toggle Script -->
+   <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+  <script>
+    new Chartist.Line('.ct-chart', {
+      labels: ['Jan', 'Fab', 'March', 'April', 'MAy','jun','july','Aug','Set','Now','Des'],
+      series: [
+      [0, 10, 70, 80, 50,70,80,50,90,60],
+      [20, 40, 30.5, 70, 30,60,40,90,100],
+      
+      ]
+    }, {
+      fullWidth: true,
+      chartPadding: {
+        right: 40
+      }
+    });
+
+    // Bar Cart
+    new Chartist.Bar('.ct-barchart', {
+  labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+  series: [
+    [800000, 1200000, 1400000, 1300000],
+    [200000, 400000, 500000, 300000],
+    [100000, 200000, 400000, 600000]
+  ]
+}, {
+  stackBars: true,
+  axisY: {
+    labelInterpolationFnc: function(value) {
+      return (value / 1000) + 'k';
+    }
+  }
+}).on('draw', function(data) {
+  if(data.type === 'bar') {
+    data.element.attr({
+      style: 'stroke-width: 30px'
+    });
+  }
+});
+// <bar chrat2
+
+new Chartist.Bar('.ct-barchart2', {
+  labels: ['jun', 'Jul', '', 'Sep', 'Oct'],
+  series: [
+    [4, 8, 2,  5  ],
+    [2, 5, 8,  6,  1],
+    
+  ]
+}, {
+  seriesBarDistance: 30,
+  axisX: {
+    showGrid: false
+  }
+});
+
+// Column Chart
+ window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+     
+      data: [
+
+      {
+        dataPoints: [
+        // { x: 1, y: 297571, label: "Venezuela"},
+        // { x: 2, y: 267017,  label: "Saudi" },
+        // { x: 3, y: 175200,  label: "Canada"},
+        // { x: 4, y: 154580,  label: "Iran"},
+        // { x: 5, y: 116000,  label: "Russia"},
+        { x: 6, y: 150000, label: "Eraning"},
+        { x: 7, y: 100000,  label: "."},
+        { x: 8, y: 50000,  label: "."}
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js">
+
+  </script>
+
+</body>
+
+</html>
